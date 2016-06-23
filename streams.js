@@ -1,6 +1,6 @@
 var fs = require("fs");
 
-var stream = fs. createReadStream("./chat.log", "UTF-8");
+var stream = fs.createReadStream("./chat.log", "UTF-8");
 
 var data = "";
 
